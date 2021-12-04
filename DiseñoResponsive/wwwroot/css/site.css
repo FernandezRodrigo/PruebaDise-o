@@ -1,0 +1,212 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+
+/*CSS images*/
+.img-wsd{
+    width: 100%;
+    height: 100%;
+}
+
+.img-do {
+    width: 90%;
+    height: 85%;
+}
+
+.img-kf {
+    width:100%;
+    height: 100%;
+}
+
+.img-its {
+    width: 100%;
+    height: 95%;
+}
+
+.icon {
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.icon-grey {
+    color: #808080;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*CSS division*/
+.div-purple {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: #3C065E;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-white {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-i {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    justify-content: center;
+}
+
+.dev-div {
+    background-color: #09bdbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+}
+
+.tec-div {
+    background-color: #7759d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+}
+
+.des-div {
+    background-color: #0046ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+}
+
+.adap-div {
+    background-color: #d375ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+}
+
+/*CSS text*/
+.title-do {
+    font-size: 3.5rem;
+}
+
+.text-size {
+    font-size: 12px;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-blue {
+    color: #2EC2E8;
+}
+
+.text-font{
+    font-family: 'Century Gothic';
+}
+
+/*CSS padding and margin*/
+.pad-xl {
+    padding-left: 15%;
+    padding-right: 5%;
+}
+
+.pad-xr {
+    padding-right: 10%;
+}
+
+.pad-xldo {
+    padding-left: 10%;
+}
+
+.pad-xrdo {
+    padding-right: 10%;
+}
+
+.pad-y {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.pad-b{
+    padding-bottom:5%;
+}
+
+.pad-t{
+    padding-top: 5%;
+}
+
+.marg-b {
+    margin-bottom: 45%;
+}
+
+.marg-l{
+    margin-left: 10%;
+}
+
+.marg-x{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.marg-xkf{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*CSS Others*/
+.progress{
+    background-color: #ffffff;
+}
+
+.bkg-white {
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    margin: 2%;
+    padding: 10px;
+}
+
+.style-button {
+    width:250px;
+    border-radius: 50px;
+    background-color: #2EC2E8;
+    border-color: #2EC2E8;
+    font-family: 'Century Gothic';
+}
